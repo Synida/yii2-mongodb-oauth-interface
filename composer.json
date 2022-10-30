@@ -1,0 +1,33 @@
+{
+  "name": "synida/yii2-mongodb-oauth-interface",
+  "description": "description",
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/Synida/yii2-mongodb-oauth-interface",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Hlavati",
+      "email": "david.hlavati@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-mongodb": "*",
+    "synida/yii2-oauth2-server": "^2.0"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
