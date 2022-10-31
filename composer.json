@@ -15,7 +15,7 @@
     "ext-ctype": "*",
     "ext-mongodb": "*",
     "synida/yii2-oauth2-server": "~2.0",
-    "yiisoft/yii2-mongodb": "~3.0"
+    "yiisoft/yii2-mongodb": "^2.1"
   },
   "config": {
     "process-timeout": 1800,
