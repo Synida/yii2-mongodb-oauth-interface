@@ -4,7 +4,7 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\storage;
+namespace synida\yii2\mongodb\oauth\storage;
 
 use Exception;
 use filsh\yii2\oauth2server\models\OauthAccessTokens;
@@ -23,7 +23,7 @@ use yii\mongodb\Database;
 
 /**
  * Class Yii2MongoDB
- * @package synida\storage
+ * @package synida\yii2\mongodb\oauth\storage
  *
  * @property string $dns
  * @property string $connection

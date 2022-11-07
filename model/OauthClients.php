@@ -4,17 +4,17 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\model;
+namespace synida\yii2\mongodb\oauth\model;
 
 use filsh\yii2\oauth2server\models\OauthAuthorizationCodes;
-use synida\model\OauthAccessTokens;
-use synida\model\OauthRefreshTokens;
+use synida\yii2\mongodb\oauth\model\OauthAccessTokens;
+use synida\yii2\mongodb\oauth\model\OauthRefreshTokens;
 use yii\db\ActiveQueryInterface;
 use yii\mongodb\ActiveRecord;
 
 /**
  * Class OauthClients
- * @package synida\model
+ * @package synida\yii2\mongodb\oauth\model
  * @description This is the model class for table "oauth_clients".
  *
  * @property string $client_id

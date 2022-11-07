@@ -4,14 +4,14 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\response;
+namespace synida\yii2\mongodb\oauth\response;
 
 use OAuth2\ResponseType\AccessToken;
-use synida\storage\Yii2MongoDB;
+use synida\yii2\mongodb\oauth\storage\Yii2MongoDB;
 
 /**
  * Class AccessTokenResponseType
- * @package synida\response
+ * @package synida\yii2\mongodb\oauth\response
  */
 class AccessTokenResponseType extends AccessToken
 {

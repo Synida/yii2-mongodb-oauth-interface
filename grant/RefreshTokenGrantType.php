@@ -4,17 +4,17 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\grant;
+namespace synida\yii2\mongodb\oauth\grant;
 
 use OAuth2\GrantType\RefreshToken;
 use OAuth2\RequestInterface;
 use OAuth2\ResponseInterface;
 use OAuth2\ResponseType\AccessTokenInterface;
-use synida\storage\Yii2MongoDB;
+use synida\yii2\mongodb\oauth\storage\Yii2MongoDB;
 
 /**
  * Class RefreshTokenGrantType
- * @package synida\grant
+ * @package synida\yii2\mongodb\oauth\grant
  *
  * @property array $refreshToken
  * @property Yii2MongoDB $storage

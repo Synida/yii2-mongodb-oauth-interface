@@ -4,14 +4,14 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\filter;
+namespace synida\yii2\mongodb\oauth\filter;
 
 use Yii;
 use yii\filters\auth\HttpBearerAuth;
 
 /**
  * Class ExtendedHttpBearerAuth
- * @package synida\filter
+ * @package synida\yii2\mongodb\oauth\filter
  */
 class ExtendedHttpBearerAuth extends HttpBearerAuth
 {

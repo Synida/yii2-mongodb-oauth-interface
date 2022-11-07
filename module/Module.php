@@ -4,19 +4,19 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\module;
+namespace synida\yii2\mongodb\oauth\module;
 
 use \filsh\yii2\oauth2server\Module as OAuthServerModule;
 use filsh\yii2\oauth2server\Server;
 use ReflectionException;
-use synida\response\AccessTokenResponseType;
-use synida\storage\Yii2MongoDB;
+use synida\yii2\mongodb\oauth\response\AccessTokenResponseType;
+use synida\yii2\mongodb\oauth\storage\Yii2MongoDB;
 use yii\base\InvalidConfigException;
 use yii\di\NotInstantiableException;
 
 /**
  * Class Module
- * @package synida\module
+ * @package synida\yii2\mongodb\oauth\module
  */
 class Module extends OAuthServerModule
 {

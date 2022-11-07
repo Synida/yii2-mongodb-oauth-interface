@@ -4,14 +4,14 @@
  * Copyright © 2022. All rights reserved.
  */
 
-namespace synida\model;
+namespace synida\yii2\mongodb\oauth\model;
 
 use yii\db\ActiveQueryInterface;
 use yii\mongodb\ActiveRecord;
 
 /**
  * Class OauthRefreshTokens
- * @package synida\model
+ * @package synida\yii2\mongodb\oauth\model
  */
 class OauthRefreshTokens extends ActiveRecord
 {
