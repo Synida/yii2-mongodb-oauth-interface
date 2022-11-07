@@ -26,6 +26,11 @@
       "yiisoft/yii2-composer": true
     }
   },
+  "autoload": {
+    "psr-4": {
+      "synida\\yii2\\mongodb\\oauth\\": "src"
+    }
+  },
   "repositories": [
     {
       "type": "composer",
