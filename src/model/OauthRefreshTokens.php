@@ -8,6 +8,7 @@ namespace synida\yii2\mongodb\oauth\model;
 
 use yii\db\ActiveQueryInterface;
 use yii\mongodb\ActiveRecord;
+use common\models\User;
 
 /**
  * Class OauthRefreshTokens

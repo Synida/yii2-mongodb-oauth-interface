@@ -3,6 +3,7 @@
   "description": "Yii2 mongoDB OAuth2 interface",
   "minimum-stability": "stable",
   "homepage": "https://github.com/Synida/yii2-mongodb-oauth-interface",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {

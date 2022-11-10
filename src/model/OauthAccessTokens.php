@@ -8,6 +8,7 @@ namespace synida\yii2\mongodb\oauth\model;
 
 use yii\mongodb\ActiveRecord;
 use yii\web\IdentityInterface;
+use common\models\User;
 
 /**
  * This is the model class for table "oauth_access_tokens".
