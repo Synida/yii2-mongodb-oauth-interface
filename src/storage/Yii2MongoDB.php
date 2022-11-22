@@ -7,8 +7,6 @@
 namespace synida\yii2\mongodb\oauth\storage;
 
 use Exception;
-use filsh\yii2\oauth2server\models\OauthAccessTokens;
-use filsh\yii2\oauth2server\models\OauthRefreshTokens;
 use OAuth2\Storage\AccessTokenInterface;
 use OAuth2\Storage\AuthorizationCodeInterface;
 use OAuth2\Storage\ClientCredentialsInterface;
@@ -16,6 +14,8 @@ use OAuth2\Storage\JwtBearerInterface;
 use OAuth2\Storage\PublicKeyInterface;
 use OAuth2\Storage\RefreshTokenInterface;
 use OAuth2\Storage\UserCredentialsInterface;
+use synida\yii2\mongodb\oauth\model\OauthAccessTokens;
+use synida\yii2\mongodb\oauth\model\OauthRefreshTokens;
 use Yii;
 use yii\mongodb\Collection;
 use yii\mongodb\Connection;

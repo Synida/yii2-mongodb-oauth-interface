@@ -6,7 +6,6 @@
 
 namespace synida\yii2\mongodb\oauth\model;
 
-use filsh\yii2\oauth2server\models\OauthAuthorizationCodes;
 use yii\db\ActiveQueryInterface;
 use yii\mongodb\ActiveRecord;
 
